@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Resume</title>
+
+    <script>
+        function loadDateTime() {
+            document.getElementById("date").innerHTML = new Date();
+            var refresh = 1000; // Refresh rate in milli seconds
+            mytime = setTimeout('loadDateTime()', refresh)
+        }
+    </script>
+
+</head>
+
+<body onload="loadDateTime()">
+
+    <div style="text-align: center; font-family:courier,arial,helvetica;">
+        <img src="../vicky.jpeg" height="150" width="150" />
+        <h1>Vignesh Chandran</h1>
+        <h5>
+            <a href="mailto:vignesh_chandran@persistent.com">
+                vignesh_chandran@persistent.com
+            </a>
+        </h5>
+        <h5>Mobile:+917200570050</h5>
+    </div>
+    <hr />
+    <h2>Objective</h2>
+    <p>Looking for a competitive and challenging job that will 
+      utilize my technical skills to meet business 
+      requirements</p>
+    <hr />
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Ionic</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <hr />
+    <h1>Education</h1>
+    <table  id="myTable" >
+      <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 15px;
+        }
+        </style>
+      <tr>
+        <th>Course</th>
+        <th>College</th> 
+        <th>Percentage</th>
+        <th>Year of passing</th>
+      </tr>
+      <tr>
+        <td>MCA</td>
+        <td>Muthayammal college of Arts and Science</td>
+        <td>69.67%</td>
+        <td>2017</td>
+       
+        
+      </tr>
+      <tr>
+        <td>BCA</td>
+        <td>Muthayammal college of Arts and Science</td>
+        <td>69.54%</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>HSC</td>
+        <td>Govt.Boys.Hss.School</td>
+        <td>57.54%</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>SSLC</td>
+        <td>Govt.Boys.Hss.School</td>
+        <td>79.45%</td>
+        <td>2010</td>
+      </tr>
+      
+    </table>
+    
+    <h2>Declation</h2>
+    <p>What ever I have provided above is true to my knowledge.</p>
+    <p style="text-align: right;">Yours Faithfully,</p>
+    <p style="text-align: right;">Vignesh Chandran</p>
+    <p style="text-align: right;"><b>Place:</b> Vennandur</p>
+    <p style="text-align: right;">
+        <b>Date:</b>
+        <span id="date">DD:MM:YYYY</span>
+    </p>
+</body>
+
+</html>
