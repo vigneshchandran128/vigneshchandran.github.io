@@ -6,23 +6,23 @@
     <title>Resume</title>
 
     <script>
-      function showDateTime() {
-          var dt = new Date();
-document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2))+":"+ (("0"+dt.getSeconds()).slice(-2));
-          // document.getElementById("datetime").innerHTML = new Date();
-          var refresh = 1000;
-          mytime = setTimeout('showDateTime()', refresh)
-      }
+        function showDateTime() {
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "." + (("0" + (dt.getMonth() + 1)).slice(-2)) + "." + (dt.getFullYear()) + " " + (("0" + dt.getHours()).slice(-2)) + ":" + (("0" + dt.getMinutes()).slice(-2)) + ":" + (("0" + dt.getSeconds()).slice(-2));
+            // document.getElementById("datetime").innerHTML = new Date();
+            var refresh = 1000;
+            mytime = setTimeout('showDateTime()', refresh)
+        }
 
-  </script>
+    </script>
 
 </head>
 
 <body onload="showDateTime()">
 
     <div style="text-align: center; font-family:courier,arial,helvetica;">
-      
-        <img src="../vicky.jpeg"style="border-radius:100%; alt:Avatar; width:10%; height:20%" />
+
+        <img src="../vicky.jpeg" style="border-radius:100%; alt:Avatar; width:10%; height:20%" />
         <h1>Vignesh Chandran</h1>
         <h5>
             <a href="mailto:vigneshchandran711@gmail.com">
@@ -31,21 +31,21 @@ document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +
         </h5>
         <h5>Mobile:+917200570050</h5>
     </div>
-    
+
     <h2 style="background-color:#9FE2BF; font-size:25;">Objective</h2>
-    <p>Looking for a competitive and challenging job that will 
-      utilize my technical skills to meet business 
-      requirements.</p>
+    <p>Looking for a competitive and challenging job that will
+        utilize my technical skills to meet business
+        requirements.</p>
 
     <h2 style="background-color:#9FE2BF; font-size:25;">Work Experience</h2>
-<h3>Software Trainee at QwickSoft Solution Pvt. Ltd</h3>
-<li>Developing Kesar – Expense Tracker Mobile
-  Application.</li>
-<li>Working on Ionic 5, Angular, TypeScript for Mobile
-  Application.</li>
-<li>Built website using HTML5, Bootstrap CSS, JavaScrip.</li>
-<li>Internationalization and Responsible for manual
-  testing of Website and Mobile Application.</li>
+    <h3>Software Trainee at QwickSoft Solution Pvt. Ltd</h3>
+    <li>Developing Kesar – Expense Tracker Mobile
+        Application.</li>
+    <li>Working on Ionic 5, Angular, TypeScript for Mobile
+        Application.</li>
+    <li>Built website using HTML5, Bootstrap CSS, JavaScrip.</li>
+    <li>Internationalization and Responsible for manual
+        testing of Website and Mobile Application.</li>
 
     <h2 style="background-color:#9FE2BF; font-size:25;">Skills</h2>
     <ul>
@@ -57,60 +57,61 @@ document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +
         <li>Node JS</li>
     </ul>
     <h2>
-      <p style="background-color:#9FE2BF; font-size:25;">Education</p>
-  </h2>
-  <style>
-    table {
-        border-collapse: collapse;
-        border: 1px solid black;
-        width:100%;
-        text-align:center;
-        font-size:large;
-    }
+        <p style="background-color:#9FE2BF; font-size:25;">Education</p>
+    </h2>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 100%;
+            text-align: center;
+            font-size: large;
+        }
 
-   
-    tr:nth-child(even) {
-        background-color: powderblue;
-    }
-    .avatar {
-        vertical-align: middle;
-        width: 75px;
-        height: 75px;
-        border-radius: 50%;
-    }
-</style>
-<table id="myTable" border="1" class="table" class="th,tr,td">
-  <tr>
-      <th>Course</th>
-      <th>Institution</th>
-      <th>Year of passing</th>
-      <th>Percentage(%)</th>
-  </tr>
-  <tr>
-    <td>MCA</td>
-    <td>Muthayammal college of Arts and Science</td>
-    <td>2017</td>
-    <td>69.67%</td>
-  </tr>
-  <tr>
-      <td>BCA</td>
-      <td>Muthayammal college of Arts and Science</td>
-      <td>2015</td>
-      <td>69.75%</td>
-  </tr>
-  <tr>
-      <td>HSC</td>
-      <td>Govt.Hr.Sec.School</td>
-      <td>2012</td>
-      <td>58.25%</td>
-  </tr>
-  <tr>
-      <td>SSLC</td>
-      <td>Govt.Hr.Sec.School.Vennandur</td>
-      <td>2010</td>
-      <td>79.50%</td>
-  </tr>
-</table>
+
+        tr:nth-child(even) {
+            background-color: powderblue;
+        }
+
+        .avatar {
+            vertical-align: middle;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+    </style>
+    <table id="myTable" border="1" class="table" class="th,tr,td">
+        <tr>
+            <th>Course</th>
+            <th>Institution</th>
+            <th>Year of passing</th>
+            <th>Percentage(%)</th>
+        </tr>
+        <tr>
+            <td>MCA</td>
+            <td>Muthayammal college of Arts and Science</td>
+            <td>2017</td>
+            <td>69.67%</td>
+        </tr>
+        <tr>
+            <td>BCA</td>
+            <td>Muthayammal college of Arts and Science</td>
+            <td>2015</td>
+            <td>69.75%</td>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <td>Govt.Hr.Sec.School</td>
+            <td>2012</td>
+            <td>58.25%</td>
+        </tr>
+        <tr>
+            <td>SSLC</td>
+            <td>Govt.Hr.Sec.School.Vennandur</td>
+            <td>2010</td>
+            <td>79.50%</td>
+        </tr>
+    </table>
     <h2 style="background-color:#9FE2BF; font-size:25;">Achievements</h2>
     <li>Java Developer - Active Contributor</li>
     <li>Participating National Seminar</li>
@@ -119,7 +120,8 @@ document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +
 
 
     <h2 style="background-color:#9FE2BF; font-size:25;">Declation</h2>
-    <p>I solemnly declare that all the information furnished in this document is free of errors to the best of my knowledge.
+    <p>I solemnly declare that all the information furnished in this document is free of errors to the best of my
+        knowledge.
     </p>
     <p style="text-align: right;"><b>Yours Faithfully,</b></p>
     <p style="text-align: right;">Vignesh Chandran</p>
